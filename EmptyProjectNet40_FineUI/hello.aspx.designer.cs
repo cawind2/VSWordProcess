@@ -355,6 +355,24 @@ namespace EmptyProjectNet20 {
         protected global::FineUI.TextBox TextBox25;
         
         /// <summary>
+        /// FormRow4 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.FormRow FormRow4;
+        
+        /// <summary>
+        /// GroupPanel4 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.GroupPanel GroupPanel4;
+        
+        /// <summary>
         /// TextBox26 控件。
         /// </summary>
         /// <remarks>
@@ -373,13 +391,85 @@ namespace EmptyProjectNet20 {
         protected global::FineUI.TextBox TextBox27;
         
         /// <summary>
-        /// TextArea2 控件。
+        /// FormRow5 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.TextArea TextArea2;
+        protected global::FineUI.FormRow FormRow5;
+        
+        /// <summary>
+        /// GroupPanel5 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.GroupPanel GroupPanel5;
+        
+        /// <summary>
+        /// TextBox28 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox28;
+        
+        /// <summary>
+        /// TextBox29 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox29;
+        
+        /// <summary>
+        /// TextBox30 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox30;
+        
+        /// <summary>
+        /// TextBox31 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox31;
+        
+        /// <summary>
+        /// TextBox32 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox32;
+        
+        /// <summary>
+        /// TextBox33 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox33;
+        
+        /// <summary>
+        /// TextBox34 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox34;
         
         /// <summary>
         /// DatePicker4 控件。
@@ -409,22 +499,58 @@ namespace EmptyProjectNet20 {
         protected global::FineUI.DatePicker DatePicker6;
         
         /// <summary>
-        /// FormRow4 控件。
+        /// DatePicker7 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.FormRow FormRow4;
+        protected global::FineUI.DatePicker DatePicker7;
         
         /// <summary>
-        /// FormRow5 控件。
+        /// TextBox36 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::FineUI.FormRow FormRow5;
+        protected global::FineUI.TextBox TextBox36;
+        
+        /// <summary>
+        /// TextBox37 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox37;
+        
+        /// <summary>
+        /// TextBox38 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox38;
+        
+        /// <summary>
+        /// TextBox39 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox39;
+        
+        /// <summary>
+        /// TextBox40 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::FineUI.TextBox TextBox40;
         
         /// <summary>
         /// FormRow6 控件。
