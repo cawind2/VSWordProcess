@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyProjectNet40_FineUI", "EmptyProjectNet40_FineUI\EmptyProjectNet40_FineUI.csproj", "{35AB0FCA-99E3-41A9-8418-A99B54236D8A}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordProcess", "EmptyProjectNet40_FineUI\WordProcess.csproj", "{35AB0FCA-99E3-41A9-8418-A99B54236D8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

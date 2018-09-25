@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>FineUI（开源版）空项目</title>
+    <title>工商管理文档处理</title>
     <style>
         .header .title a {
             font-weight: bold;
@@ -50,7 +50,7 @@
                         <f:ContentPanel ShowBorder="false" ShowHeader="false" ID="ContentPanel1" CssClass="header"
                             runat="server">
                             <div class="title">
-                                <a href="./default.aspx" style="color: #fff;">FineUI（开源版）空项目</a>
+                                <a href="./default.aspx" style="color: #fff;">工商管理</a>
                             </div>
                         </f:ContentPanel>
                     </Items>
@@ -60,8 +60,8 @@
                     <Items>
                         <f:Tree runat="server" ShowBorder="false" ShowHeader="false" EnableArrows="true" EnableLines="true" ID="leftMenuTree">
                             <Nodes>
-                                <f:TreeNode Text="默认分类" Expanded="true">
-                                    <f:TreeNode Text="开始页面" NavigateUrl="~/hello.aspx"></f:TreeNode>
+                                <f:TreeNode Text="文档种类" Expanded="true">
+                                    <f:TreeNode Text="农贸市场摊贩抽检" NavigateUrl="~/nmsctfcheck.aspx"></f:TreeNode>
                                     <f:TreeNode Text="登录页面" NavigateUrl="~/login.aspx"></f:TreeNode>
                                 </f:TreeNode>
                             </Nodes>
@@ -77,34 +77,11 @@
                                     <Items>
                                         <f:ContentPanel ID="ContentPanel2" ShowBorder="false" BodyPadding="10px" ShowHeader="false" AutoScroll="true"
                                             runat="server">
-                                            <h2>FineUI（开源版）</h2>
-                                            基于 ExtJS 的开源 ASP.NET 控件库
+                                            <h2>工商管理文档处理系统</h2>
+                                            工商管理文档处理系统
                                         
                                             <br />
-                                            <h2>FineUI的使命</h2>
-                                            创建 No JavaScript，No CSS，No UpdatePanel，No ViewState，No WebServices 的网站应用程序
-                                        
-                                            <br />
-                                            <h2>支持的浏览器</h2>
-                                            Chrome、Firefox、Safari、IE 8.0+
-                                        
-                                            <br />
-                                            <h2>授权协议</h2>
-                                            Apache License v2.0（ExtJS 库在 <a target="_blank" href="http://www.sencha.com/license">GPL v3</a> 协议下发布）
                                             
-                                            <br />
-                                            <h2>相关链接</h2>
-                                            首页：<a target="_blank" style="font-weight: bold;" href="http://fineui.com/">http://fineui.com/</a>
-                                            <br />
-                                            论坛：<a target="_blank" href="http://fineui.com/bbs/">http://fineui.com/bbs/</a>
-                                            <br />
-                                            示例：<a target="_blank" href="http://fineui.com/demo/">http://fineui.com/demo/</a>
-                                            <br />
-                                            文档：<a target="_blank" href="http://fineui.com/doc/">http://fineui.com/doc/</a>
-                                            <br />
-                                            <br />
-                                            <br />
-                                            <h2><a target="_blank" href="http://fineui.com/pro/">FineUI（专业版）：基于 jQuery 的专业 ASP.NET 控件库</a></h2>
                                         </f:ContentPanel>
                                     </Items>
                                 </f:Tab>
@@ -117,10 +94,9 @@
                         <f:ContentPanel ID="ContentPanel3" runat="server" ShowBorder="false" ShowHeader="false">
                             <table class="bottomtable">
                                 <tr>
-                                    <td style="width: 300px;">&nbsp;版本：<a target="_blank" href="http://fineui.com/version">v<asp:Literal runat="server" ID="litVersion"></asp:Literal></a>
-                                        &nbsp;&nbsp; <a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=5a98eb42b742a1edaf22826648d5f61bc16ed08e0253976bc8d30f97508c09c7">QQ公开群</a></td>
-                                    <td style="text-align: center;">Copyright &copy; 2014 合肥三生石上软件有限公司</td>
-                                    <td style="width: 300px; text-align: right;">&nbsp;</td>
+                                    <td style="width: 300px;">&nbsp;版本：<a target="_blank" href="">v<asp:Literal runat="server" ID="litVersion"></asp:Literal></a>
+                                        &nbsp;&nbsp; 
+                                    </td>
                                 </tr>
                             </table>
                         </f:ContentPanel>
