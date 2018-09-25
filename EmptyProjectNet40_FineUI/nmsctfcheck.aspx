@@ -72,6 +72,28 @@
                 </f:FormRow>
                 <f:FormRow ID="FormRow3" runat="server">
                     <Items>
+                        <f:GroupPanel ID="GroupPanel3" runat="server" EnableCollapse="True" Title="抽检基本情况">
+                            <Items>
+                                <f:TextBox ID="TextBox21" runat="server" Label="检测单位">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox22" runat="server" Label="检验报告编号">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox23" runat="server" Label="检验物品名称">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox24" runat="server" Label="检验物品批号">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox25" runat="server" Label="抽样基数">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox26" runat="server" Label="样品数量">
+                                </f:TextBox>
+                                 <f:TextBox ID="TextBox27" runat="server" Label="单位规格">
+                                </f:TextBox>
+                                <f:TextArea ID="TextArea2" runat="server" Height="50px" Label="检验结论" Text=""></f:TextArea>
+                                <f:DatePicker ID="DatePicker4" runat="server" Label="抽样时间"></f:DatePicker>
+                                <f:DatePicker ID="DatePicker5" runat="server" Label="报告签发时间"></f:DatePicker>
+                                <f:DatePicker ID="DatePicker6" runat="server" Label="报告送达时间"></f:DatePicker>
+                             </Items>
+                        </f:GroupPanel>
                     </Items>
                 </f:FormRow>
                 <f:FormRow ID="FormRow4" runat="server">
